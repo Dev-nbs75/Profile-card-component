@@ -1,0 +1,109 @@
+:root{
+    --Darkcyan: hsl(185, 75%, 39%);
+    --Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+    --Darkgrayishblue: hsl(227, 10%, 46%);
+    --Darkgray: hsl(0, 0%, 59%);
+  }
+
+  body{
+    font-family: Kumbh Sans, Helvetica, system-ui;
+    background-color: var(--Darkcyan);
+    padding: 0em 4em;
+  }
+  .main{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--Darkcyan);
+    z-index: -10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Wrapper{
+    background-color: white;
+    max-width: 21.85em;
+    border-radius: 1em;
+    height: 22em;
+    padding-bottom: 1.25em;
+    position: relative;
+ z-index: 100;
+    text-align: center;
+    margin: 0em 2em;
+}
+  li{
+    list-style: none;
+  }
+
+  ul{
+    margin: 0;
+  }
+  h2{
+    line-height: 2px;
+    color: var(--Verydarkdesaturatedblue);
+  }
+  
+  ul span{
+    font-size: .95em;
+    letter-spacing: 0.15em;
+    margin-left: -1em;
+    margin-top: -1em;
+    color: var(--Darkgrayishblue);
+  }
+  .Followers-Like-Photo ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4em;
+    font-size: 0.75em;
+    transform: translateY(-30px)
+  }
+  .profile-picture{
+    transform: translateY(-57px) ;
+    border-radius: 50%;
+    border: 5px solid white;
+  }
+  .card-pattern{
+    border-top-left-radius:1em ;
+    border-top-right-radius:1em ;
+  }
+.about{
+transform: translateY(-50px);
+font-size: .95em;
+}
+.about span{
+font-weight: 400;
+color: var(--Darkgrayishblue);
+}
+.Location{
+color: var(--Darkgrayishblue);
+}
+hr{
+transform: translateY(-45px);
+color: var(--Darkgray);
+background-color: var(--Darkgray);
+opacity: 0.3;
+}
+.Name{
+color:var(--Verydarkdesaturatedblue);
+}
+.about .Name{
+font-size: 1.35em;
+margin-right: .5em;
+}
+.bg-pattern{
+z-index: 1;
+}
+.bg-pattern-top{
+position: fixed;
+top: -600px;
+left: -210px;
+}
+.bg-pattern-bottom{
+position: fixed;
+right: -200px;
+bottom: -720px;
+z-index: 100;
+}
